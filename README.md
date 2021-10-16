@@ -1,2 +1,2 @@
-# cscircles-solution
+# cscircles-solutions
 Some solutions for cscircles exercises
