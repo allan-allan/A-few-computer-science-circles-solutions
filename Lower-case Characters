@@ -3,4 +3,3 @@ def lowerChar(char):
         return chr(ord(char)+32)
     else:
         return char
-      
