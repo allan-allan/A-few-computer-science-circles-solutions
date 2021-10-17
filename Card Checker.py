@@ -12,7 +12,7 @@ def check(S):
     for i in range (0, len(S_new)):
         x = x + int((S_new)[i])
         i = i + 1
-    if x%10 == 0:                                                        #This checks if the sum of he digits is divisible by 10
+    if x%10 == 0:                                                        #This checks if the sum of the digits is divisible by 10
         return True
     else:
         return False
