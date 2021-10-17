@@ -1,2 +1,2 @@
 # cscircles-solutions
-Some solutions for cscircles exercises
+I have a few solutions for the cscircles exercises which are accessed here: https://cscircles.cemc.uwaterloo.ca/
