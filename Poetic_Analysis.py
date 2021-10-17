@@ -1,3 +1,10 @@
+#A writer is working on their newest poem, Turing and the Machines. They have hired you to determine the word which appears the most times. 
+#You can access the lines of the poem by calling input() repeatedly, and the last line contains the three characters ###. All lines consist of words separated by single spaces; 
+#there are no digits or punctuation. Convert all the words to lower-case, and print the word that occurs the most times (we guarantee there will not be a tie).
+
+
+
+
 def most_mentioned_word():                          #define the function most_mentioned_word
     
     poem = input()                                  #input the first line of the poem
