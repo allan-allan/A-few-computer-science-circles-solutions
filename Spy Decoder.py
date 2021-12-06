@@ -1,7 +1,7 @@
 
 raw_statement = input()                                                             #The input text to be decoded
 
-def encoder():                                                                      #The encoding function, to be called later, values are defined in the first few lines
+def decoder():                                                                      #The encoding function, to be called later, values are defined in the first few lines
     shift_value = -6                                                                #The hard value by which the letters are shifted.
     decoded_str = ''                                                                #The new string with encoded values
     letters_in_alphabet = 26                                                        #Number of letters in the alphabet, to be used later
@@ -25,4 +25,4 @@ def encoder():                                                                  
     decoded_str_reversed = decoded_str[len(decoded_str)::-1]                         #Reverses the contents of the generated string
            
     return decoded_str_reversed                                                      #Ends the function definition
-print(encoder())                                                                     #The function is called here
+print(decoder())                                                                     #The function is called here
