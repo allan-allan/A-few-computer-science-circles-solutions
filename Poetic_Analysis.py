@@ -14,7 +14,7 @@ def most_mentioned_word():                          #define the function most_me
         poem_lower_case = poem.lower()              #change the poem to lowercase
         poem_elements = poem_lower_case.split()     #split the string into a list. This loop exits when the input is '###'
         
-    count=0                                         #initialose the counter at 0
+    count=0                                         #initialise the counter at 0
     
     for i in poem_elements:                         #initialise the for loop in the string
         current_frequency = poem_elements.count(i)  #current_frequency is the count for the list index being evaluated at the moment
